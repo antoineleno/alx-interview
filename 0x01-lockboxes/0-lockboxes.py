@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """0-lockboces"""
+
+
 def canUnlockAll(boxes):
     """canUnlockAll"""
 
