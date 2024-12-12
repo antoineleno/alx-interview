@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Price game module"""
+
+
 def isWinner(x, nums):
     """
     Determines the winner of each game round and the overall winner.
