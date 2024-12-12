@@ -17,7 +17,7 @@ def isWinner(x, nums):
         """Generate a list of prime counts up to max_n."""
         is_prime = [True] * (max_n + 1)
         is_prime[0] = is_prime[1] = False  # 0 and 1 are not prime
-        
+
         for i in range(2, int(max_n ** 0.5) + 1):
             if is_prime[i]:
                 for j in range(i * i, max_n + 1, i):
@@ -50,4 +50,3 @@ def isWinner(x, nums):
         return "Ben"
     else:
         return None
-
