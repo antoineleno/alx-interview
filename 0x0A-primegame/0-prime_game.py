@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def isWinner(x, nums):
     """
     Determines the winner of each game round and the overall winner.
